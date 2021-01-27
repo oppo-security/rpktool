@@ -1,0 +1,5 @@
+demjson==2.2.4
+colorama==0.4.0
+jsbeautifier==1.8.9
+chardet==3.0.4
+tqdm==4.48.2

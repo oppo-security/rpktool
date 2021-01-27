@@ -1,0 +1,162 @@
+{
+    "chinese":[
+        {
+            "feature":"system.webview",
+            "content":"webview打开网页"
+        },
+        {
+            "feature":"system.fetch",
+            "content":"网络请求"
+        },
+        {
+            "feature": "system.share",
+            "content":"分享至app"
+        },
+        {
+            "feature": "system.notification",
+            "content":"发送通知消息"
+        },
+        {
+            "feature": "system.vibrator",
+            "content":"震动"
+        },
+        {
+            "feature": "system.request",
+            "content":"网络上传下载"
+        },
+        {
+            "feature": "system.websocketfactory",
+            "content":"网络访问websocket"
+        },
+        {
+            "feature": "system.storage",
+            "content":"数据存储（key-value）"
+        },
+        {
+            "feature": "system.file",
+            "content":"文件存储"
+        },
+        {
+            "feature": "system.barcode",
+            "content":"扫描二维码"
+        },
+        {
+            "feature": "system.sensor",
+            "content":"传感器（重力，罗盘，距离，光线）"
+        },
+        {
+            "feature": "system.clipboard",
+            "content":"访问剪切板"
+        },
+        {
+            "feature": "system.geolocation",
+            "content":"获取地理位置"
+        },
+        {
+            "feature": "system.shortcut",
+            "content":"创建桌面图标"
+        },
+        {
+            "feature": "system.calender",
+            "content":"访问日历"
+        },
+        {
+            "feature": "system.network",
+            "content":"查询网络状态"
+        },
+        {
+            "feature": "system.device",
+            "content":"查询设备信息"
+        },
+        {
+            "feature": "system.brightness",
+            "content":"设置屏幕亮度"
+        },
+        {
+            "feature": "system.volume",
+            "content":"设置音量"
+        },
+        {
+            "feature": "system.battery",
+            "content":"查询电池电量"
+        },
+        {
+            "feature": "system.package",
+            "content":"应用管理操作"
+        },
+        {
+            "feature": "system.record",
+            "content":"访问麦克风"
+        },
+        {
+            "feature": "system.contact",
+            "content":"访问手机联系人"
+        },
+        {
+            "feature": "system.sms",
+            "content":"发送短信"
+        },
+        {
+            "feature": "system.wifi",
+            "content":"wifi操作"
+        },
+        {
+            "feature": "system.media",
+            "content":"多媒体（拍照，视频，访问照片等）"
+        },
+        {
+            "feature": "system.audio",
+            "content":"播放音频"
+        },
+        {
+            "feature": "service.push",
+            "content":"厂商推送服务"
+        },
+        {
+            "feature": "service.pay",
+            "content":"厂商支付"
+        },
+        {
+            "feature": "service.stats",
+            "content":"厂商统计服务"
+        },
+        {
+            "feature": "service.account",
+            "content":"厂商账号服务"
+        },
+        {
+            "feature": "service.wxpay",
+            "content":"微信支付"
+        },
+        {
+            "feature": "service.alipay",
+            "content":"支付宝支付"
+        },
+        {
+            "feature": "service.share",
+            "content":"分享至第三方"
+        },
+        {
+            "feature": "service.qqaccount",
+            "content":"qq账号服务"
+        },
+        {
+            "feature": "service.wxaccount",
+            "content":"微信账号服务"
+        },
+        {
+            "feature": "service.wbaccount",
+            "content":"微博账号服务"
+        },
+        {
+            "feature": "service.oppoinneraccount",
+            "content":"OPPO账号服务"
+        }
+    ],
+    "regexes":[
+        {
+            "rule":"获取oppo账号token",
+            "regex":"\\.getToken("
+        }
+    ]
+}
